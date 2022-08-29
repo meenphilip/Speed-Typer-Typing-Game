@@ -102,8 +102,9 @@ input {
   left: 20px;
 }
 
-.end-game-container{
+.end-game-container {
   background-color: inherit;
+  color: #fff;
   display: none;
   align-items: center;
   justify-content: center;
