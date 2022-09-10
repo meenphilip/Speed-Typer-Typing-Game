@@ -26,7 +26,6 @@ select {
   -moz-appearance: none;
   border-radius: 0;
   background-color: #a7c5e3;
-  margin: 5px;
 }
 
 select:focus,
@@ -51,11 +50,11 @@ button:focus {
   align-items: center;
   justify-content: center;
   transform: translateY(0);
-  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in-out;
 }
 
 .settings.hide {
-  transform: translateY(-100);
+  transform: translateY(-100%);
 }
 
 .container {
